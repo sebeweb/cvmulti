@@ -1,0 +1,165 @@
+/* reset css */
+			body,header,h1,h2,h3,h4,div,p,section,article,ul,li{
+	margin: 0;
+	padding:0;
+	list-style-type:none;
+}
+
+/* common */
+.text-align{
+	text-align:center;
+}
+
+article{
+	width:80%;
+	text-align:justify;
+	margin-left:10%;
+}
+
+section .title{
+	margin-bottom: 2%;
+}
+
+/* section header */
+.triangle{
+	height:12.93em;
+	background-color: #034500;
+	border-bottom: 5px solid white;
+	transform: skewY(171deg);
+	transform-origin: left;
+}
+
+.override-triangle{
+	position:absolute;
+	transform: skewY(-171deg);
+	width:100%;
+}
+
+.job{
+	top:4.93em;
+	color: #8DCF8A;
+}
+
+.info{
+	top:12.93em;	
+}
+
+.name{
+	position:relative;
+	top:-2em;
+	font-size: 350%;
+	color: #8DCF8A;
+}
+
+.adress{
+	position:relative;
+	width:40%;
+	top:7em;
+}
+
+.phone{
+	position:relative;
+	width:40%;
+	top:11em;
+}
+
+.mail{
+	position:relative;
+	width:40%;
+	top:16em;
+}
+/* end section header */
+/* nav */
+nav{
+	position:fixed;
+	top:45%;
+	right:0;
+}
+.nav-ul{
+	padding-left:1em;
+}
+.nav-li{
+	list-style-type:circle;
+	font-size:200%;
+	background-color: lightgray;
+}
+
+.link{
+	display:none;
+	ba
+}
+
+.nav-li:hover .link{
+	display:block;
+}
+/* end nav */
+/* section skill */
+.skill{
+	background-color: #156711;
+	width:40%;
+	position:absolute;
+	top:8em;
+	height:35.25em;
+	z-index:-1;
+	display:inline-block;
+}
+
+.skill .title{
+	width:80%;
+	margin-left:10%;
+	position:relative;
+	top:17em;
+	background-color:#034500;
+	border: 3px solid #8DCF8A;
+	border-radius: 5px;
+	color:#8DCF8A;
+}
+
+.list{
+	position:relative;
+	top:27em;
+	width:50%;
+}
+
+.left{
+	margin-left:10%;
+}
+
+.right{
+	margin-left:40%;
+	top:23.5em;
+	text-align: right;
+	padding-right:1em;
+}
+
+/* end section skill*/
+
+/* section experience */
+
+#experience {
+	width:60%;
+	margin-left: 40%;
+	padding:0;
+}
+
+/* end section experience */
+
+/* section diploma */
+
+#diploma{
+	width:60%;
+	margin-left: 40%;
+	margin-top: 4%;
+	padding:0;
+}
+
+/* end section diploma */
+
+/* section leisure */
+#leisure {
+	width:60%;
+	margin-top:2em;
+	margin-left: 40%;
+	padding:0;
+}
+/* end section leisure */
